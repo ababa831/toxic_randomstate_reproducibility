@@ -8,5 +8,6 @@
 # Usage
 
 0. Download dataset of Kaggle Toxic competition, and put it on the directory.
-1. `$ pip install pytest` (If necessary)
-2. `$ pytest -vv -s classification.py`, and several reproducibility tests will run.
+1. Set the filename of this for `PATH_CSV_DATA` in the `classification.py`
+2. `$ pip install pytest` (If necessary)
+3. `$ pytest -vv -s classification.py`, and several reproducibility tests will run.
